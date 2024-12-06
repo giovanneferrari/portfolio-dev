@@ -1,0 +1,145 @@
+.container-contacts {
+    background: url(../assets/Background_Contacts.png) no-repeat center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 128px 120px;
+    position: relative;
+
+    & > div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        h3 {
+            color: var(--main-color-purple);
+            font: var(--subtitle);
+        }
+
+        h1 {
+            color: var(--base-color-gray-600);
+            font: var(--title-md);
+        }
+
+        p {
+            color: var(--base-color-gray-500);
+            font: var(--text-md);
+        }
+    }
+}
+
+.contacts-icon {
+    gap: 12px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--base-color-gray-300);
+    width: 400px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    p {
+        font: var(--text-md);
+        color: var(--base-color-gray-500);
+    }
+}
+
+.contacts-icon:nth-child(1):hover {
+    background: linear-gradient(to right,
+    #3996DB, #003964);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+    svg:nth-child(1) {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+
+    svg:nth-child(3) {
+        path {
+            fill: white;
+        }
+    }
+}
+
+.contacts-icon:nth-child(2):hover {
+    background: linear-gradient(to right,
+        #833ab4,#fd1d1d,#fcb045);
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+
+
+    svg:nth-child(1) {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+
+    svg:nth-child(3) {
+        path {
+            fill: white;
+        }
+    }
+}
+
+.contacts-icon:nth-child(3):hover {
+    background: linear-gradient(to right,
+    #852791,#4B277A);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+
+    svg:nth-child(1) {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+
+    svg:nth-child(3) {
+        path {
+            fill: white;
+        }
+    }
+}
+
+.contacts-icon:nth-child(4):hover {
+    background: linear-gradient(to right,
+    #22D9F8,#1735E3);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+
+    svg:nth-child(1) {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+
+    svg:nth-child(3) {
+        path {
+            fill: white;
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.container-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    padding: 88px 120px 144px;
+    background-color: var(--base-color-gray-100);
+
+    .container-services-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        h2 {
+            font: var(--subtitle);
+            color: var(--main-color-red);
+        }
+
+        h1 {
+            font: var(--title-md);
+            color: var(--base-color-gray-600);
+        }
+    }
+
+    .container-services-cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+
+        .service-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            width: 280px;
+            border: 2px solid var(--base-color-gray-200);
+            border-radius: 12px;
+            padding: 20px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                h3 {
+                    font: var(--title-sm);
+                    color: var(--base-color-gray-600);
+                }
+
+                p {
+                    font: var(--text-sm);
+                    color: var(--base-color-gray-500);
+                }
+            }
+
+        }
+
+        .service-card:nth-child(1):hover {
+            background-color: var(--main-color-purple);
+            cursor: pointer;
+
+            p {
+                color: var(--base-color-gray-600);
+            }
+
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+        }   
+
+        .service-card:nth-child(2):hover {
+            background-color: var(--main-color-yellow);
+            cursor: pointer;
+
+            p {
+                color: var(--base-color-gray-600);
+            }
+
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+        }
+
+        .service-card:nth-child(3):hover {
+            background-color: var(--main-color-green);
+            cursor: pointer;
+
+            p {
+                color: var(--base-color-gray-600);
+            }
+
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+        }
+    }
+}
+
+

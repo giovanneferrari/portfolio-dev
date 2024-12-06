@@ -1,0 +1,152 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main > img {
+    width: 100%;
+    height: 750px;
+}
+
+.container {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.container-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 680px;
+
+    h2 {
+        font: var(--subtitle);
+        color: var(--base-color-gray-500);
+        margin-bottom: 8px;
+        
+        span {
+            color: var(--main-color-red);
+        }
+    }
+
+    h1 {
+        font: var(--title-lg);
+        color: var(--base-color-gray-600);
+        margin-bottom: 20px;
+    }
+
+    p {
+        font: var(--text-sm);
+        color: var(--base-color-gray-400);
+    }
+}
+
+#avatar {
+    margin-bottom: 56px;
+    width: 112px;
+}
+
+.container-icons {
+    gap: 16px;
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 8px 16px;
+        background-color: var(--base-color-gray-300);
+        border-radius: 999px;
+        /* margin-bottom: 94px; */
+
+        p {
+            font: var(--text-md);
+            color: var(--base-color-gray-500);
+        }
+    }
+}
+
+.icons:nth-child(1):hover {
+    background-color: var(--base-color-gray-500);
+    cursor: pointer;
+
+    svg {
+        path {
+            fill: var(--base-color-gray-300);
+        }
+    }
+
+    p {
+        color: var(--base-color-gray-300);
+    }
+}
+
+.icons:nth-child(2):hover {
+    background-color: var(--main-color-red);
+    cursor: pointer;
+
+    svg {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.icons:nth-child(3):hover, .icons:nth-child(5):hover {
+    background-color: var(--main-color-blue);
+    cursor: pointer;
+
+    svg {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.icons:nth-child(4):hover {
+    background-color: var(--main-color-yellow);
+    cursor: pointer;
+
+    svg {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.icons:nth-child(6):hover {
+    background-color: var(--main-color-green);
+    cursor: pointer;
+
+    svg {
+        path {
+            fill: white;
+        }
+    }
+
+    p {
+        color: white;
+    }
+}
+
+#arrow {
+    margin-top: 14px;
+    margin-bottom: 60px;
+}
